@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import styled from "styled-components";
 import { Saira_Stencil_One } from "next/font/google";
 import { PrimaryInputWSearchIcon } from "./primary-input";
+import { CartControl } from "./cart-control";
 
 
 const sairaStencil = Saira_Stencil_One({ 
@@ -34,7 +35,9 @@ export default function Header(props : HeaderProps){
             <Logo className={sairaStencil.className}> Caputeeno </Logo>
            <div>
             <PrimaryInputWSearchIcon placeholder="Procurando por algo especifíco?"/>
+            <CartControl/>
             </div>
+
         </TagHeader>
     )
 }
