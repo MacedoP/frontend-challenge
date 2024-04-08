@@ -14,9 +14,11 @@ const CartCount = styled.span`
     color: white;
 
     margin-left: -10px;
+    
 `
 const Container = styled.div`
     position: relative;
+    cursor: pointer;
 
 
 `
